@@ -159,7 +159,7 @@ the three most popular multilingual datasets in the table below. For more detail
 
 | Dataset                                                                                       | Languages | Domain                                | Speaking Style | License   | Text Column         | ID Column    |
 |-----------------------------------------------------------------------------------------------|-----------|---------------------------------------|----------------|-----------|---------------------|--------------|
-| [Multilingual LibriSpeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | 6         | Audiobooks                            | Narrated       | CC-BY-4.0 | `"text"`            | `"id"`       |
+| [Multilingual LibriSpeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | 6         | Audiobooks                            | Narrated       | CC-BY-4.0 | `"transcript"`            | `"id"`       |
 | [Common Voice 16](https://huggingface.co/datasets/mozilla-foundation/common_voice_16_1)       | 120       | Wikipedia text & crowd-sourced speech | Narrated       | CC0-1.0   | `"sentence"`        | `"path"`     |
 | [VoxPopuli](https://huggingface.co/datasets/facebook/voxpopuli)                               | 15        | European Parliament recordings        | Spontaneous    | CC0       | `"normalized_text"` | `"audio_id"` |
 
