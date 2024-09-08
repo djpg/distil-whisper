@@ -5,7 +5,7 @@ FROM huggingface/transformers-pytorch-gpu:4.41.2
 RUN apt-get update && apt-get install -y nano && pip install ipython
 
 # Clona el repositorio y configura el entorno
-RUN git clone https://github.com/huggingface/distil-whisper.git \
+RUN git clone https://github.com/djpg/distil-whisper.git \  # https://github.com/huggingface/distil-whisper.git
     && cd distil-whisper \
     && git remote add upstream https://github.com/huggingface/distil-whisper.git \
     && cd training \
