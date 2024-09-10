@@ -2,7 +2,8 @@
 FROM huggingface/transformers-pytorch-gpu:4.41.2
 
 # Actualiza e instala nano e ipython
-RUN apt-get update && apt-get install -y nano && pip install ipython
+RUN apt-get update && apt-get install -y nano
+RUN python3 -m pip install --upgrade pip && pip install ipython
 
 # Clona el repositorio y configura el entorno
 RUN git clone https://github.com/djpg/distil-whisper.git \  # https://github.com/huggingface/distil-whisper.git
